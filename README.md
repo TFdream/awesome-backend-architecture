@@ -52,6 +52,13 @@
   - [Ehcache](http://www.ehcache.org/)
   - [Hazelcast](https://hazelcast.com/)
 
+* 任务调度
+  - [Quartz](http://www.quartz-scheduler.org/)
+
+* 字节码增强
+  - [Javassist](http://jboss-javassist.github.io/javassist/)
+  - [cglib](https://github.com/cglib/cglib)
+
 * 服务熔断、降级
   - [Hystrix](https://github.com/Netflix/Hystrix/)
 
@@ -62,25 +69,24 @@
 
 * 分布式协调
   - [Apache Zookeeper](https://zookeeper.apache.org/)
+
+* Zookeeper客户端库
   - [Apache Curator](http://curator.apache.org/)
-
-* 任务调度
-  - [Quartz](http://www.quartz-scheduler.org/)
-
-* 字节码增强
-  - [Javassist](http://jboss-javassist.github.io/javassist/)
-  - [cglib](https://github.com/cglib/cglib)
+  - [zkclient](https://github.com/sgroschupf/zkclient)
 
 * NIO框架
   - [Netty](http://netty.io/)
   - [Grizzly]()
   - [Ver]()
 
-* 工具类
+* Bean 复制
+  - [Dozer](http://dozer.sourceforge.net/)
+  - [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
+
+* 其他
   - [Lomobok](https://www.projectlombok.org/)
   - [commons-codec](http://commons.apache.org/proper/commons-codec/)
   - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
-  - [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
 
 * 日志
   - [slf4j](https://www.slf4j.org/)
