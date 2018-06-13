@@ -13,26 +13,81 @@
 * [HBase](http://hbase.apache.org/)
 * [Elasticsearch](https://www.elastic.co/products/elasticsearch)
 
-## 常用框架
-* [Spring Framework](https://spring.io/projects/spring-framework)
-* [Spring Boot](https://spring.io/projects/spring-boot)
-* [Google Guava](https://github.com/google/guava)
-* [slf4j](https://www.slf4j.org/)/[logback](https://logback.qos.ch/)/[log4j2](https://logging.apache.org/log4j/2.x/)
-* [OkHttp](http://square.github.io/okhttp/)
-* [jackson](http://wiki.fasterxml.com/JacksonHome)
-* [Google Gson](https://github.com/google/gson)
-* [Alibaba fastjson](https://github.com/alibaba/fastjson)
-* [Alibaba druid](https://github.com/alibaba/druid)
-* [commons-codec](http://commons.apache.org/proper/commons-codec/)
-* [commons-lang3](https://commons.apache.org/proper/commons-lang/)
-* [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
-* [commons-dbcp](http://commons.apache.org/proper/commons-dbcp/)
-* [Joda-Time](http://www.joda.org/joda-time/)
-* [Quartz](http://www.quartz-scheduler.org/)
-* [Javassist](http://jboss-javassist.github.io/javassist/)
-* [cglib](https://github.com/cglib/cglib)
-* [JUnit 4](https://junit.org/junit4/)
+## 常用框架/第三方库
+* Spring全家桶
+  - [Spring Framework](https://spring.io/projects/spring-framework)
+  - [Spring Boot](https://spring.io/projects/spring-boot)
+  - [Spring Cloud](https://spring.io/projects/spring-cloud)
 
+* ORM框架
+  - [MyBatis](http://www.mybatis.org/mybatis-3/)
+  - [Spring JDBC](https://spring.io/projects/spring-framework)
+  - [DbUtils]()
+
+* 本地缓存
+  - [Google Guava](https://github.com/google/guava)
+  - [EhCache](https://github.com/google/guava)
+  - [Caffe](https://github.com/google/guava)
+
+* 分布式缓存
+  - [Jedis](https://github.com/xetorthio/jedis)
+  - [Redisson](https://github.com/redisson/redisson)
+
+* Http请求
+  - [OkHttp](http://square.github.io/okhttp/)
+  - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
+  - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
+
+* 日期、时间处理
+  - [Joda-Time](http://www.joda.org/joda-time/)
+
+* JSON处理
+  - [jackson](http://wiki.fasterxml.com/JacksonHome)
+  - [Google Gson](https://github.com/google/gson)
+  - [Alibaba fastjson](https://github.com/alibaba/fastjson)
+
+* 数据库连接池
+  - [Alibaba druid](https://github.com/alibaba/druid)
+  - [c3p0](https://www.mchange.com/projects/c3p0/)
+  - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
+
+* 服务熔断、降级
+  - [Hystrix](https://github.com/Netflix/Hystrix/)
+
+* 服务注册、发现
+  - [Eureka](https://github.com/Netflix/eureka)
+  - [Consul](https://www.consul.io/)
+  - [etcd](https://coreos.com/etcd/)
+
+* 分布式协调
+  - [Apache Zookeeper](https://zookeeper.apache.org/)
+  - [Apache Curator](http://curator.apache.org/)
+
+* 任务调度
+  - [Quartz](http://www.quartz-scheduler.org/)
+
+* 字节码增强
+  - [Javassist](http://jboss-javassist.github.io/javassist/)
+  - [cglib](https://github.com/cglib/cglib)
+
+* NIO框架
+  - [Netty](http://netty.io/)
+
+* 工具类
+  - [Lomobok](https://www.projectlombok.org/)
+  - [commons-codec](http://commons.apache.org/proper/commons-codec/)
+  - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
+  - [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
+
+* 日志
+  - [slf4j](https://www.slf4j.org/)
+  - [logback](https://logback.qos.ch/)
+  - [log4j2](https://logging.apache.org/log4j/2.x/)
+
+* 单元测试
+  - [JUnit 4](https://junit.org/junit4/)
+  - [Mockito](http://site.mockito.org/)
+  
 ## 中间件
 * RPC框架
   - [阿里巴巴 dubbo](http://dubbo.io/)
