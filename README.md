@@ -1,5 +1,5 @@
-# tech-summary
-Technology summary.
+# 技术汇总
+汇总java生态圈常用技术框架、开源中间件、数据库、系统架构、项目管理、一线互联网公司架构案例等知识。
 
 ## 基础知识
 
@@ -39,6 +39,8 @@ Technology summary.
   - [新浪微博 motan](https://github.com/weibocom/motan)
   - [Google gRPC](https://www.grpc.io/)
   - [蚂蚁金服 sofa-rpc](https://github.com/alipay/sofa-rpc)
+  - [百度 brpc](https://github.com/brpc/brpc)
+  - [腾讯 Tars](https://github.com/Tencent/Tars)
 
 * MQ消息
   - [RabbitMQ](http://www.rabbitmq.com/)
@@ -66,7 +68,33 @@ Technology summary.
   - [百度 uid-generator](https://github.com/baidu/uid-generator)
   - [美团 Leaf](https://tech.meituan.com/MT_Leaf.html)
 
+* 分布式文件系统
+  - [FastDFS](https://github.com/happyfish100/fastdfs)
+
 * 数据库binlog解析
   - [阿里巴巴 canal](https://github.com/alibaba/canal)
 
+## 分布式
+数据一致性、服务治理、服务降级
+
+分布式事务
+2PC、3PC、CAP、BASE、 可靠消息最终一致性、最大努力通知、TCC
+
+## 微服务
+SOA、康威定律
+
+ServiceMesh
+Docker & Kubernets
+Spring Boot
+Spring Cloud
+
 ## 安全
+
+## 架构设计
+* [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
+
+## 互联网公司架构
+* [互联网公司技术架构](https://github.com/davideuler/architecture.of.internet-product)
+* [互联网公司架构: 淘宝技术架构，阿里巴巴技术架构](https://github.com/davideuler/architecture.taobao-alibaba)
+* [互联网公司架构: 微信技术架构， 腾讯技术架构](https://github.com/davideuler/architecture.wechat-tencent)
+* [互联网公司架构: 美团点评技术架构](https://github.com/davideuler/architecture.meituan-dianping)
