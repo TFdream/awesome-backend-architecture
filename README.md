@@ -13,7 +13,7 @@
 * [HBase](http://hbase.apache.org/)
 * [Elasticsearch](https://www.elastic.co/products/elasticsearch)
 
-## 常用框架/第三方库
+## 常用框架\&第三方库
 * Spring 全家桶
   - [Spring Framework](https://spring.io/projects/spring-framework)
   - [Spring Boot](https://spring.io/projects/spring-boot)
