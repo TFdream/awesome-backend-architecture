@@ -24,23 +24,31 @@
   - [Spring JDBC](https://spring.io/projects/spring-framework)
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
-* Http请求
+* Http 网络请求
   - [OkHttp](http://square.github.io/okhttp/)
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
   - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
 
-* 日期、时间处理
-  - [Joda-Time](http://www.joda.org/joda-time/)
-
-* JSON处理
+* JSON序列化\&反序列化
   - [jackson](http://wiki.fasterxml.com/JacksonHome)
   - [Google Gson](https://github.com/google/gson)
   - [Alibaba fastjson](https://github.com/alibaba/fastjson)
 
 * 数据库连接池
   - [Alibaba druid](https://github.com/alibaba/druid)
+  - [HikariCP](http://brettwooldridge.github.io/HikariCP/)
   - [c3p0](https://www.mchange.com/projects/c3p0/)
   - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
+
+* 日期\&时间处理
+  - [Joda-Time](http://www.joda.org/joda-time/)
+
+* Java 序列化框架
+  - [Google Protobuf](http://developers.google.com/protocol-buffers/)
+  - [Hessian](http://hessian.caucho.com/)
+  - [Kryo](https://github.com/EsotericSoftware/kryo)
+  - [protostuff](https://github.com/protostuff/protostuff)
+  - [Fst](https://github.com/RuedigerMoeller/fast-serialization)
 
 * 本地缓存
   - [Google Guava](https://github.com/google/guava)
@@ -52,22 +60,22 @@
   - [Ehcache](http://www.ehcache.org/)
   - [Hazelcast](https://hazelcast.com/)
 
-* 任务调度
+* 任务调度框架
   - [Quartz](http://www.quartz-scheduler.org/)
 
 * 字节码增强
   - [Javassist](http://jboss-javassist.github.io/javassist/)
   - [cglib](https://github.com/cglib/cglib)
 
-* 服务熔断、降级
+* 服务熔断\&降级
   - [Hystrix](https://github.com/Netflix/Hystrix/)
 
-* 服务注册、发现
+* 服务注册\&发现
   - [Eureka](https://github.com/Netflix/eureka)
   - [Consul](https://www.consul.io/)
   - [etcd](https://coreos.com/etcd/)
 
-* 分布式协调
+* 分布式协调\&选主
   - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 * Zookeeper客户端库
@@ -79,7 +87,7 @@
   - [Grizzly]()
   - [Ver]()
 
-* Bean 复制
+* Bean 属性拷贝
   - [Dozer](http://dozer.sourceforge.net/)
   - [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
 
