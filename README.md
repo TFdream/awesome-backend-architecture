@@ -14,24 +14,15 @@
 * [Elasticsearch](https://www.elastic.co/products/elasticsearch)
 
 ## 常用框架/第三方库
-* Spring全家桶
+* Spring 全家桶
   - [Spring Framework](https://spring.io/projects/spring-framework)
   - [Spring Boot](https://spring.io/projects/spring-boot)
   - [Spring Cloud](https://spring.io/projects/spring-cloud)
 
-* ORM框架
+* ORM 框架
   - [MyBatis](http://www.mybatis.org/mybatis-3/)
   - [Spring JDBC](https://spring.io/projects/spring-framework)
-  - [DbUtils]()
-
-* 本地缓存
-  - [Google Guava](https://github.com/google/guava)
-  - [EhCache](https://github.com/google/guava)
-  - [Caffe](https://github.com/google/guava)
-
-* 分布式缓存
-  - [Jedis](https://github.com/xetorthio/jedis)
-  - [Redisson](https://github.com/redisson/redisson)
+  - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
 * Http请求
   - [OkHttp](http://square.github.io/okhttp/)
@@ -50,6 +41,16 @@
   - [Alibaba druid](https://github.com/alibaba/druid)
   - [c3p0](https://www.mchange.com/projects/c3p0/)
   - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
+
+* 本地缓存
+  - [Google Guava](https://github.com/google/guava)
+  - [Caffeine](https://github.com/ben-manes/caffeine)
+
+* 分布式缓存
+  - [Jedis](https://github.com/xetorthio/jedis)
+  - [Redisson](https://github.com/redisson/redisson)
+  - [Ehcache](http://www.ehcache.org/)
+  - [Hazelcast](https://hazelcast.com/)
 
 * 服务熔断、降级
   - [Hystrix](https://github.com/Netflix/Hystrix/)
@@ -72,6 +73,8 @@
 
 * NIO框架
   - [Netty](http://netty.io/)
+  - [Grizzly]()
+  - [Ver]()
 
 * 工具类
   - [Lomobok](https://www.projectlombok.org/)
