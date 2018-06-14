@@ -13,6 +13,7 @@
 
 * Web框架
   - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
+  - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
   - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
   - [Jersey](https://jersey.github.io/)
   - [RESTEasy](https://resteasy.github.io/)
@@ -66,11 +67,13 @@
   - [Javassist](http://jboss-javassist.github.io/javassist/)
   - [cglib](https://github.com/cglib/cglib)
 
-* 服务熔断\&降级
-  - [Hystrix](https://github.com/Netflix/Hystrix/)
-
-* 服务注册\&发现
+* Netflix OSS
   - [Eureka](https://github.com/Netflix/eureka)
+  - [网关服务 Zuul 2](https://github.com/Netflix/zuul)
+  - [Ribbon](https://github.com/Netflix/ribbon)
+  - [容错 Hystrix](https://github.com/Netflix/Hystrix/)
+  - [分布式配置管理 Archaius](https://github.com/Netflix/archaius)
+  - [Chaos Monkey](https://github.com/Netflix/chaosmonkey)
 
 * Zookeeper客户端库
   - [Apache Curator](http://curator.apache.org/)
