@@ -1,5 +1,5 @@
 # 技术汇总
-汇总java生态圈常用技术框架、数据库、开源中间件、微服务、系统架构、团队管理、一线互联网公司架构案例等知识。
+汇总java生态圈常用技术框架、数据库、开源中间件、微服务、系统架构、线上问题定位&处理、团队管理、一线互联网公司架构案例等知识。
 
 ## 基础知识
 
@@ -100,7 +100,12 @@ NoSQL(NoSQL = Not Only SQL)
   - [Dozer](http://dozer.sourceforge.net/)
   - [commons-beanutils](http://commons.apache.org/proper/commons-beanutils/)
 
-* 其他
+* Web 容器
+  - [Tomcat](http://tomcat.apache.org/)
+  - [Jetty](http://www.eclipse.org/jetty/)
+  - [Undertow](http://undertow.io/)
+
+* 工具类
   - [Lomobok](https://www.projectlombok.org/)
   - [commons-codec](http://commons.apache.org/proper/commons-codec/)
   - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
@@ -113,6 +118,15 @@ NoSQL(NoSQL = Not Only SQL)
 * 单元测试
   - [JUnit 4](https://junit.org/junit4/)
   - [Mockito](http://site.mockito.org/)
+
+* 依赖管理\&构建工具
+  - [Maven](https://maven.apache.org/)
+  - [Gradle](https://gradle.org/)
+
+* 版本控制
+  - [Git](https://git-scm.com/)
+  - [SVN]()
+  - [Mercurial](https://www.mercurial-scm.org/)
   
 ## 中间件
 * RPC框架
