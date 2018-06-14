@@ -176,7 +176,7 @@
 
 * 数据库binlog解析
   - [阿里巴巴 canal](https://github.com/alibaba/canal)
-  - [大众点 puma](https://github.com/dianping/puma)
+  - [大众点评 puma](https://github.com/dianping/puma)
 
 ## RDBMS
 
