@@ -15,9 +15,10 @@
   - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
   - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
   - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
-  - [Jersey](https://jersey.github.io/)
-  - [RESTEasy](https://resteasy.github.io/)
-
+  - [paoding-rose](http://www.54chen.com/rose.html)
+  - [Blade](https://github.com/lets-blade/blade)
+  - [JFinal](https://github.com/jfinal/jfinal)
+  
 * ORM 框架
   - [MyBatis](http://www.mybatis.org/mybatis-3/)
   - [Hibernate](http://hibernate.org/)
