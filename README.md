@@ -64,7 +64,7 @@
 * 任务调度框架
   - [Quartz](http://www.quartz-scheduler.org/)
 
-* 字节码增强
+* 字节码操作
   - [Javassist](http://jboss-javassist.github.io/javassist/)
   - [cglib](https://github.com/cglib/cglib)
 
@@ -129,6 +129,7 @@
   - [蚂蚁金服 sofa-rpc](https://github.com/alipay/sofa-rpc)
   - [百度 brpc](https://github.com/brpc/brpc)
   - [腾讯 Tars](https://github.com/Tencent/Tars)
+  - [大众点评 pigeon](https://github.com/dianping/pigeon)
 
 * MQ消息
   - [RabbitMQ](http://www.rabbitmq.com/)
@@ -141,26 +142,41 @@
   - [淘宝 tddl](https://github.com/alibaba/tb_tddl)
   - [Mycat 数据库分库分表中间件](http://www.mycat.io/)
   - [sharding-jdbc](http://shardingjdbc.io/)
+  - [大众点评 zebra](https://github.com/dianping/zebra)
   - [mango](http://mango.jfaster.org/)
 
 * 配置中心
   - [百度 disconf](https://github.com/knightliao/disconf)
   - [携程 apollo](https://github.com/ctripcorp/apollo)
 
-* 分布式Job
+* 分布式任务调度
   - [Elastic-Job](http://elasticjob.io/)
   - [TBSchedule](http://code.taobao.org/p/tbschedule/wiki/tbschedule-quick-start/)
+  - [xxl-job](https://github.com/xuxueli/xxl-job)
 
 * 分布式ID生成器
   - [ Twitter Snowflake](https://github.com/twitter/snowflake)
   - [百度 uid-generator](https://github.com/baidu/uid-generator)
   - [美团 Leaf](https://tech.meituan.com/MT_Leaf.html)
 
+* APM
+  - [大众点评 Cat](https://github.com/dianping/cat)
+  - [Pinpoint](https://github.com/naver/pinpoint)
+  - [Open-Falcon](http://open-falcon.org/)
+  - [Prometheus](https://prometheus.io/)
+  
+* 分布式链路追踪
+  - [Zipkin](https://zipkin.io/)
+  - [Jaeger](https://www.jaegertracing.io/)
+  - [大众点评 Cat](https://github.com/dianping/cat)
+  - [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
+
 * 分布式文件系统
   - [FastDFS](https://github.com/happyfish100/fastdfs)
 
 * 数据库binlog解析
   - [阿里巴巴 canal](https://github.com/alibaba/canal)
+  - [大众点 puma](https://github.com/dianping/puma)
 
 ## RDBMS
 
