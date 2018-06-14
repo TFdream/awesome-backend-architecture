@@ -21,13 +21,20 @@ NoSQL(NoSQL = Not Only SQL)
 * [Elasticsearch](https://www.elastic.co/products/elasticsearch)
 
 ## 常用框架\&第三方库
-* Spring 全家桶
+* [Spring](https://spring.io/) 全家桶
   - [Spring Framework](https://spring.io/projects/spring-framework)
   - [Spring Boot](https://spring.io/projects/spring-boot)
   - [Spring Cloud](https://spring.io/projects/spring-cloud)
 
+* Web框架
+  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
+  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
+  - [Jersey](https://jersey.github.io/)
+  - [RESTEasy](https://resteasy.github.io/)
+
 * ORM 框架
   - [MyBatis](http://www.mybatis.org/mybatis-3/)
+  - [Hibernate](http://hibernate.org/)
   - [Spring JDBC](https://spring.io/projects/spring-framework)
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
@@ -79,11 +86,6 @@ NoSQL(NoSQL = Not Only SQL)
 
 * 服务注册\&发现
   - [Eureka](https://github.com/Netflix/eureka)
-  - [Consul](https://www.consul.io/)
-  - [etcd](https://coreos.com/etcd/)
-
-* 分布式协调\&选主
-  - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 * Zookeeper客户端库
   - [Apache Curator](http://curator.apache.org/)
@@ -92,7 +94,7 @@ NoSQL(NoSQL = Not Only SQL)
 * NIO框架
   - [Netty](http://netty.io/)
   - [Grizzly]()
-  - [Ver]()
+  - [Vert.x](https://vertx.io/)
 
 * Bean 属性拷贝
   - [Dozer](http://dozer.sourceforge.net/)
@@ -166,6 +168,14 @@ ServiceMesh
 Docker & Kubernets
 Spring Boot
 Spring Cloud
+
+* 服务注册\&发现
+  - [Zookeeper](https://zookeeper.apache.org/)
+  - [Consul](https://www.consul.io/)
+  - [etcd](https://coreos.com/etcd/)
+
+* 分布式协调\&选主
+  - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ## 安全
 
