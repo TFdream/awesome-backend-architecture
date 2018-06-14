@@ -5,21 +5,6 @@
 
 ## 进阶
 
-## RDBMS
-
-### MySQL
-* MySQL 索引
-
-### PostgreSQL
-
-## NoSQL
-NoSQL(NoSQL = Not Only SQL)
-
-* [Redis](https://redis.io/)
-* [MongoDB](https://www.mongodb.com/)
-* [HBase](http://hbase.apache.org/)
-* [Elasticsearch](https://www.elastic.co/products/elasticsearch)
-
 ## 常用框架\&第三方库
 * [Spring](https://spring.io/) 全家桶
   - [Spring Framework](https://spring.io/projects/spring-framework)
@@ -110,6 +95,10 @@ NoSQL(NoSQL = Not Only SQL)
   - [commons-codec](http://commons.apache.org/proper/commons-codec/)
   - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
 
+* 模版引擎
+  - [Apache Velocity](http://velocity.apache.org/)
+  - [新一代Java模板引擎Thymeleaf](https://www.thymeleaf.org/)
+
 * 日志
   - [slf4j](https://www.slf4j.org/)
   - [logback](https://logback.qos.ch/)
@@ -169,6 +158,22 @@ NoSQL(NoSQL = Not Only SQL)
 * 数据库binlog解析
   - [阿里巴巴 canal](https://github.com/alibaba/canal)
 
+## RDBMS
+
+### MySQL
+* MySQL 索引
+
+### PostgreSQL
+* PG
+
+## NoSQL
+NoSQL(NoSQL = Not Only SQL)
+
+* [Redis](https://redis.io/)
+* [MongoDB](https://www.mongodb.com/)
+* [HBase](http://hbase.apache.org/)
+* [Elasticsearch](https://www.elastic.co/products/elasticsearch)
+
 ## 分布式
 数据一致性、服务治理、服务降级
 
@@ -192,9 +197,14 @@ Spring Cloud
   - [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ## 安全
+* [SQL注入]()
 
 ## 团队管理
+* [面试流程]()
 
+## 线上问题排查
+* [Java进程CPU使用率高排查](https://github.com/oldratlee/useful-scripts/blob/master/docs/java.md#beer-show-busy-java-threads)
+* [Java OOM问题排查]()
 
 ## 架构设计
 * [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
@@ -204,3 +214,6 @@ Spring Cloud
 * [互联网公司架构: 淘宝技术架构，阿里巴巴技术架构](https://github.com/davideuler/architecture.taobao-alibaba)
 * [互联网公司架构: 微信技术架构， 腾讯技术架构](https://github.com/davideuler/architecture.wechat-tencent)
 * [互联网公司架构: 美团点评技术架构](https://github.com/davideuler/architecture.meituan-dianping)
+
+
+
