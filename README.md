@@ -7,28 +7,28 @@
 
 ## 常用框架\&第三方库
 * [Spring](https://spring.io/) 全家桶
-  - [Spring Framework](https://spring.io/projects/spring-framework)
-  - [Spring Boot](https://spring.io/projects/spring-boot)
-  - [Spring Cloud](https://spring.io/projects/spring-cloud)
+  - [Spring Framework](https://spring.io/projects/spring-framework) ★★★★★
+  - [Spring Boot](https://spring.io/projects/spring-boot) ★★★★★
+  - [Spring Cloud](https://spring.io/projects/spring-cloud) ★★★★☆
 
 * Web框架
-  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
+  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) ★★★★★
   - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
-  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
+  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/) ★★☆☆☆
   - [paoding-rose](http://www.54chen.com/rose.html)
   - [Blade](https://github.com/lets-blade/blade)
   - [JFinal](https://github.com/jfinal/jfinal)
   
 * ORM 框架
-  - [MyBatis](http://www.mybatis.org/mybatis-3/)
-  - [Hibernate](http://hibernate.org/)
-  - [Spring JDBC](https://spring.io/projects/spring-framework)
-  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/)
-  - [jOOQ](https://www.jooq.org/)
+  - [MyBatis](http://www.mybatis.org/mybatis-3/) ★★★★☆
+  - [Hibernate](http://hibernate.org/) ★★★★☆
+  - [Spring JDBC](https://spring.io/projects/spring-framework) ★★★★☆
+  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/) ★★★★☆
+  - [jOOQ](https://www.jooq.org/) ★★★★☆
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
 * Http 网络请求
-  - [OkHttp](http://square.github.io/okhttp/)
+  - [OkHttp](http://square.github.io/okhttp/) ★★★★★
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
   - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
 
@@ -38,21 +38,29 @@
   - [Alibaba fastjson](https://github.com/alibaba/fastjson)
 
 * 数据库连接池
-  - [Alibaba druid](https://github.com/alibaba/druid)
-  - [HikariCP](http://brettwooldridge.github.io/HikariCP/)
-  - [c3p0](https://www.mchange.com/projects/c3p0/)
-  - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
-
+  - [Alibaba druid](https://github.com/alibaba/druid) ★★★★★
+  - [HikariCP](http://brettwooldridge.github.io/HikariCP/) ★★★★★
+  - [c3p0](https://www.mchange.com/projects/c3p0/) ★★★★☆
+  - [DBCP](http://commons.apache.org/proper/commons-dbcp/) ★★★★☆
+  - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) ★★★★☆
+  
 * 日期\&时间处理
-  - [Joda-Time](http://www.joda.org/joda-time/)
+  - [Joda-Time](http://www.joda.org/joda-time/) ★★★★★
+  - [Java 8 Date/Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
 
 * Java 序列化框架
-  - [Google Protobuf](http://developers.google.com/protocol-buffers/)
+  - [Protobuf](http://developers.google.com/protocol-buffers/)
   - [Hessian](http://hessian.caucho.com/)
   - [Kryo](https://github.com/EsotericSoftware/kryo)
   - [protostuff](https://github.com/protostuff/protostuff)
-  - [Fst](https://github.com/RuedigerMoeller/fast-serialization)
-
+  - [fst](https://github.com/RuedigerMoeller/fast-serialization)
+  - [jackson](http://wiki.fasterxml.com/JacksonHome)
+  - [Gson](https://github.com/google/gson)
+  - [fastjson](https://github.com/alibaba/fastjson)
+  - [msgpack](https://msgpack.org/)
+  - [avro](https://avro.apache.org/)
+  - [XStream](http://x-stream.github.io/)
+  
 * 本地缓存
   - [Google Guava](https://github.com/google/guava)
   - [Caffeine](https://github.com/ben-manes/caffeine)
@@ -165,7 +173,6 @@
   - [大众点评 Cat](https://github.com/dianping/cat)
   - [Pinpoint](https://github.com/naver/pinpoint)
   - [Open-Falcon](http://open-falcon.org/)
-  - [Prometheus](https://prometheus.io/)
   
 * 分布式链路追踪
   - [Zipkin](https://zipkin.io/)
@@ -217,6 +224,9 @@ Spring Cloud
 
 * 分布式协调\&选主
   - [Apache Zookeeper](https://zookeeper.apache.org/)
+
+* 应用监控
+  - [Prometheus](https://prometheus.io/)
 
 ## 安全
 * [SQL注入]()
