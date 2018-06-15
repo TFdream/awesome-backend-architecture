@@ -7,28 +7,28 @@
 
 ## 常用框架\&第三方库
 * [Spring](https://spring.io/) 全家桶
-  - [Spring Framework](https://spring.io/projects/spring-framework) ★★★★★
-  - [Spring Boot](https://spring.io/projects/spring-boot) ★★★★★
-  - [Spring Cloud](https://spring.io/projects/spring-cloud) ★★★★☆
+  - [Spring Framework](https://spring.io/projects/spring-framework) 推荐指数: ★★★★★
+  - [Spring Boot](https://spring.io/projects/spring-boot) 推荐指数: ★★★★★
+  - [Spring Cloud](https://spring.io/projects/spring-cloud) 推荐指数: ★★★★☆
 
 * Web框架
-  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) ★★★★★
+  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) 推荐指数: ★★★★★
   - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
-  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/) ★★☆☆☆
+  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/) 推荐指数: ★★☆☆☆
   - [paoding-rose](http://www.54chen.com/rose.html)
   - [Blade](https://github.com/lets-blade/blade)
   - [JFinal](https://github.com/jfinal/jfinal)
   
 * ORM 框架
-  - [MyBatis](http://www.mybatis.org/mybatis-3/) ★★★★☆
+  - [MyBatis](http://www.mybatis.org/mybatis-3/) 推荐指数: ★★★★☆
   - [Hibernate](http://hibernate.org/) ★★★★☆
-  - [Spring JDBC](https://spring.io/projects/spring-framework) ★★★★☆
-  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/) ★★★★☆
+  - [Spring JDBC](https://spring.io/projects/spring-framework) 推荐指数: ★★★★☆
+  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/) 推荐指数: ★★★★☆
   - [jOOQ](https://www.jooq.org/) ★★★★☆
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
 * Http 网络请求
-  - [OkHttp](http://square.github.io/okhttp/) ★★★★★
+  - [OkHttp](http://square.github.io/okhttp/) 推荐指数: ★★★★★
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
   - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
 
@@ -38,14 +38,14 @@
   - [Alibaba fastjson](https://github.com/alibaba/fastjson)
 
 * 数据库连接池
-  - [Alibaba druid](https://github.com/alibaba/druid) ★★★★★
-  - [HikariCP](http://brettwooldridge.github.io/HikariCP/) ★★★★★
-  - [c3p0](https://www.mchange.com/projects/c3p0/) ★★★★☆
-  - [DBCP](http://commons.apache.org/proper/commons-dbcp/) ★★★★☆
-  - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) ★★★★☆
+  - [Alibaba druid](https://github.com/alibaba/druid) 推荐指数: ★★★★★
+  - [HikariCP](http://brettwooldridge.github.io/HikariCP/) 推荐指数: ★★★★★
+  - [c3p0](https://www.mchange.com/projects/c3p0/) 推荐指数: ★★★★☆
+  - [DBCP](http://commons.apache.org/proper/commons-dbcp/) 推荐指数: ★★★★☆
+  - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) 推荐指数: ★★★★☆
   
 * 日期\&时间处理
-  - [Joda-Time](http://www.joda.org/joda-time/) ★★★★★
+  - [Joda-Time](http://www.joda.org/joda-time/) 推荐指数: ★★★★★
   - [Java 8 Date/Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
 
 * Java 序列化框架
@@ -60,14 +60,15 @@
   - [msgpack](https://msgpack.org/)
   - [avro](https://avro.apache.org/)
   - [XStream](http://x-stream.github.io/)
+  - [几种 Java 序列化方案的性能比较](https://github.com/eishay/jvm-serializers/wiki)
   
 * 本地缓存
-  - [Google Guava](https://github.com/google/guava)
+  - [Google Guava](https://github.com/google/guava) 推荐指数: ★★★★★
   - [Caffeine](https://github.com/ben-manes/caffeine)
 
 * 分布式缓存
-  - [Jedis](https://github.com/xetorthio/jedis)
-  - [Redisson](https://github.com/redisson/redisson)
+  - [Jedis](https://github.com/xetorthio/jedis) 推荐指数: ★★★★★
+  - [Redisson](https://github.com/redisson/redisson) 推荐指数: ★★★★★
   - [Ehcache](http://www.ehcache.org/)
   - [Hazelcast](https://hazelcast.com/)
 
@@ -105,7 +106,7 @@
   - [Undertow](http://undertow.io/)
 
 * 工具类
-  - [Lomobok](https://www.projectlombok.org/)
+  - [Lomobok](https://www.projectlombok.org/) 推荐指数: ★★★★★
   - [commons-codec](http://commons.apache.org/proper/commons-codec/)
   - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
 
