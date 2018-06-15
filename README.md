@@ -1,5 +1,5 @@
 # 技术汇总
-汇总java生态圈常用技术框架、数据库、开源中间件、微服务、系统架构、线上问题定位&处理、团队管理、一线互联网公司架构案例等知识。
+汇总java生态圈常用技术框架、数据库、开源中间件、微服务、系统架构、线上问题定位&处理、团队管理、书单推荐、一线互联网公司架构案例等知识。
 
 ## 基础知识
 
@@ -23,6 +23,8 @@
   - [MyBatis](http://www.mybatis.org/mybatis-3/)
   - [Hibernate](http://hibernate.org/)
   - [Spring JDBC](https://spring.io/projects/spring-framework)
+  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/)
+  - [jOOQ](https://www.jooq.org/)
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
 * Http 网络请求
