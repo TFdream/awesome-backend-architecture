@@ -15,7 +15,6 @@
 ## 高级篇
 * 性能优化
 * 线上问题定位
-* 
 
 ## 常用框架\&第三方库
 * [Spring](https://spring.io/) 全家桶
@@ -190,6 +189,7 @@
 * 分布式链路追踪
   - [Zipkin](https://zipkin.io/)
   - [Jaeger](https://www.jaegertracing.io/)
+  - [OpenTracing](http://opentracing.io/)
   - [大众点评 Cat](https://github.com/dianping/cat)
   - [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
 
@@ -240,7 +240,11 @@ Spring Cloud
 
 * 应用监控
   - [Prometheus](https://prometheus.io/)
-
+  - [Graphite](http://graphiteapp.org/)
+  - [Ganglia](http://ganglia.info/)
+  - [Zabbix](https://www.zabbix.com/)
+  - [Grafana](https://grafana.com/)
+  
 ## 安全
 * [SQL注入]()
 
@@ -250,6 +254,7 @@ Spring Cloud
 ## 线上问题排查
 * [Java进程CPU使用率高排查](https://github.com/oldratlee/useful-scripts/blob/master/docs/java.md#beer-show-busy-java-threads)
 * [Java OOM问题排查]()
+* [BTrace 使用]()
 
 ## 架构设计
 * [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
