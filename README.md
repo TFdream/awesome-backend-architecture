@@ -43,10 +43,11 @@
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
   - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
 
-* JSON序列化\&反序列化
+* JSON library
   - [jackson](http://wiki.fasterxml.com/JacksonHome)
   - [Google Gson](https://github.com/google/gson)
   - [Alibaba fastjson](https://github.com/alibaba/fastjson)
+  - [Square Moshi](https://github.com/square/moshi)
 
 * 数据库连接池
   - [Alibaba druid](https://github.com/alibaba/druid) 推荐指数: ★★★★★
