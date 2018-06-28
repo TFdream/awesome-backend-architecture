@@ -54,7 +54,7 @@
   - [HikariCP](http://brettwooldridge.github.io/HikariCP/) 【强烈推荐】
   - [c3p0](https://www.mchange.com/projects/c3p0/)
   - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
-  - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) 推荐指数: ★★★★☆
+  - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) 
   
 * 日期\&时间处理
   - [Joda-Time](http://www.joda.org/joda-time/) 【Java8之前必备】
@@ -121,7 +121,7 @@
   - [Undertow](http://undertow.io/)
 
 * 工具类
-  - [Lomobok](https://www.projectlombok.org/) 推荐指数: ★★★★★
+  - [Lomobok](https://www.projectlombok.org/) 【强烈推荐】
   - [commons-codec](http://commons.apache.org/proper/commons-codec/)
   - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
 
@@ -172,8 +172,8 @@
   - [mango](http://mango.jfaster.org/)
 
 * 配置中心
+  - [携程 apollo](https://github.com/ctripcorp/apollo) 【强烈推荐】
   - [百度 disconf](https://github.com/knightliao/disconf)
-  - [携程 apollo](https://github.com/ctripcorp/apollo)
 
 * 分布式任务调度
   - [Elastic-Job](http://elasticjob.io/)
