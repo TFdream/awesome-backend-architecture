@@ -122,9 +122,11 @@
 
 * 工具类
   - [Lomobok](https://www.projectlombok.org/) 【强烈推荐】
-  - [commons-codec](http://commons.apache.org/proper/commons-codec/)
-  - [commons-lang3](https://commons.apache.org/proper/commons-lang/)
-
+  - [Apache commons-codec](http://commons.apache.org/proper/commons-codec/)
+  - [Apache commons-lang3](https://commons.apache.org/proper/commons-lang/)
+  - [Apache commons-fileupload](http://commons.apache.org/proper/commons-fileupload/)
+  - [Apache commons-email](http://commons.apache.org/proper/commons-email/)
+  
 * 模版引擎
   - [Apache Velocity](http://velocity.apache.org/)
   - [新一代Java模板引擎Thymeleaf](https://www.thymeleaf.org/)
