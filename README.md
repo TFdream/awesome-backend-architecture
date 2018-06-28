@@ -18,30 +18,30 @@
 
 ## 常用框架\&第三方库
 * [Spring](https://spring.io/) 全家桶
-  - [Spring Framework](https://spring.io/projects/spring-framework) 推荐指数: ★★★★★
-  - [Spring Boot](https://spring.io/projects/spring-boot) 推荐指数: ★★★★★
-  - [Spring Cloud](https://spring.io/projects/spring-cloud) 推荐指数: ★★★★☆
+  - [Spring Framework](https://spring.io/projects/spring-framework)
+  - [Spring Boot](https://spring.io/projects/spring-boot)
+  - [Spring Cloud](https://spring.io/projects/spring-cloud)
 
 * Web框架
   - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) 推荐指数: ★★★★★
   - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
-  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/) 推荐指数: ★★☆☆☆
+  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
   - [paoding-rose](http://www.54chen.com/rose.html)
   - [Blade](https://github.com/lets-blade/blade)
   - [JFinal](https://github.com/jfinal/jfinal)
   
 * ORM 框架
-  - [MyBatis](http://www.mybatis.org/mybatis-3/) 推荐指数: ★★★★☆
-  - [Hibernate](http://hibernate.org/) ★★★★☆
-  - [Spring JDBC](https://spring.io/projects/spring-framework) 推荐指数: ★★★★☆
-  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/) 推荐指数: ★★★★☆
-  - [jOOQ](https://www.jooq.org/) ★★★★☆
+  - [MyBatis](http://www.mybatis.org/mybatis-3/)
+  - [Hibernate](http://hibernate.org/) 
+  - [Spring JDBC](https://spring.io/projects/spring-framework)
+  - [Spring Data JPA](https://projects.spring.io/spring-data-jpa/)
+  - [jOOQ](https://www.jooq.org/)
   - [DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 
 * Http 网络请求
-  - [OkHttp](http://square.github.io/okhttp/) 推荐指数: ★★★★★
+  - [OkHttp](http://square.github.io/okhttp/)【强烈推荐】
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
-  - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/)
+  - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/) 【各版本配置差异比较大】
 
 * JSON library
   - [jackson](http://wiki.fasterxml.com/JacksonHome)
@@ -50,14 +50,14 @@
   - [Square Moshi](https://github.com/square/moshi)
 
 * 数据库连接池
-  - [Alibaba druid](https://github.com/alibaba/druid) 推荐指数: ★★★★★
-  - [HikariCP](http://brettwooldridge.github.io/HikariCP/) 推荐指数: ★★★★★
-  - [c3p0](https://www.mchange.com/projects/c3p0/) 推荐指数: ★★★★☆
-  - [DBCP](http://commons.apache.org/proper/commons-dbcp/) 推荐指数: ★★★★☆
+  - [Alibaba druid](https://github.com/alibaba/druid) 【强烈推荐】
+  - [HikariCP](http://brettwooldridge.github.io/HikariCP/) 【强烈推荐】
+  - [c3p0](https://www.mchange.com/projects/c3p0/)
+  - [DBCP](http://commons.apache.org/proper/commons-dbcp/)
   - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) 推荐指数: ★★★★☆
   
 * 日期\&时间处理
-  - [Joda-Time](http://www.joda.org/joda-time/) 推荐指数: ★★★★★
+  - [Joda-Time](http://www.joda.org/joda-time/) 【Java8之前必备】
   - [Java 8 Date/Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
 
 * Java 序列化框架
@@ -75,12 +75,12 @@
   - [几种 Java 序列化方案的性能比较](https://github.com/eishay/jvm-serializers/wiki)
   
 * 本地缓存
-  - [Google Guava](https://github.com/google/guava) 推荐指数: ★★★★★
+  - [Google Guava](https://github.com/google/guava) 
   - [Caffeine](https://github.com/ben-manes/caffeine)
 
 * 分布式缓存
-  - [Jedis](https://github.com/xetorthio/jedis) 推荐指数: ★★★★★
-  - [Redisson](https://github.com/redisson/redisson) 推荐指数: ★★★★★
+  - [Jedis](https://github.com/xetorthio/jedis) 
+  - [Redisson](https://github.com/redisson/redisson) 
   - [Ehcache](http://www.ehcache.org/)
   - [Hazelcast](https://hazelcast.com/)
 
@@ -90,13 +90,16 @@
 * 字节码操作
   - [Javassist](http://jboss-javassist.github.io/javassist/)
   - [cglib](https://github.com/cglib/cglib)
-
+  - [Square JavaPoet](https://github.com/square/javapoet)
+  - [asm](https://asm.ow2.io/)
+  
 * Netflix OSS
   - [Eureka](https://github.com/Netflix/eureka)
-  - [网关服务 Zuul 2](https://github.com/Netflix/zuul)
+  - [Zuul](https://github.com/Netflix/zuul)
   - [Ribbon](https://github.com/Netflix/ribbon)
-  - [容错 Hystrix](https://github.com/Netflix/Hystrix/)
-  - [分布式配置管理 Archaius](https://github.com/Netflix/archaius)
+  - [Feign](https://github.com/Netflix/feign)
+  - [Hystrix](https://github.com/Netflix/Hystrix/)
+  - [Archaius](https://github.com/Netflix/archaius)
   - [Chaos Monkey](https://github.com/Netflix/chaosmonkey)
 
 * Zookeeper客户端库
