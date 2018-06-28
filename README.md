@@ -23,9 +23,9 @@
   - [Spring Cloud](https://spring.io/projects/spring-cloud)
 
 * Web框架
-  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) 推荐指数: ★★★★★
+  - [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
   - [Spring WebFlux](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/web-reactive.html)
-  - [Struts 2【不推荐 安全漏洞太多】](https://struts.apache.org/)
+  - [Struts 2](https://struts.apache.org/)
   - [paoding-rose](http://www.54chen.com/rose.html)
   - [Blade](https://github.com/lets-blade/blade)
   - [JFinal](https://github.com/jfinal/jfinal)
@@ -41,7 +41,7 @@
 * Http 网络请求
   - [OkHttp](http://square.github.io/okhttp/)【强烈推荐】
   - [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)
-  - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/) 【各版本配置差异比较大】
+  - [Apache HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/) 【不推荐】
 
 * JSON library
   - [jackson](http://wiki.fasterxml.com/JacksonHome)
@@ -57,7 +57,7 @@
   - [Tomcat JNDI Datasource](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) 
   
 * 日期\&时间处理
-  - [Joda-Time](http://www.joda.org/joda-time/) 【Java8之前必备】
+  - [Joda-Time](http://www.joda.org/joda-time/)
   - [Java 8 Date/Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
 
 * Java 序列化框架
