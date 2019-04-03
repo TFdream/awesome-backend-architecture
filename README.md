@@ -162,14 +162,14 @@
 * MQ消息
   - [RabbitMQ](http://www.rabbitmq.com/)
   - [Apache Kafka](http://kafka.apache.org/)
-  - [Apache ActiveMQ](http://activemq.apache.org/)
   - [Apache RocketMQ](https://rocketmq.apache.org/)
+  - [Apache ActiveMQ](http://activemq.apache.org/)
 
 * 数据库Sharding
+  - [Apache ShardingSphere](https://github.com/apache/incubator-shardingsphere)
   - [阿里巴巴 Cobar](https://github.com/alibaba/cobar)
   - [淘宝 tddl](https://github.com/alibaba/tb_tddl)
   - [Mycat 数据库分库分表中间件](http://www.mycat.io/)
-  - [sharding-jdbc](http://shardingjdbc.io/)
   - [大众点评 zebra](https://github.com/dianping/zebra)
   - [mango](http://mango.jfaster.org/)
 
@@ -185,9 +185,10 @@
 * 分布式ID生成器
   - [Twitter Snowflake](https://github.com/twitter/snowflake)
   - [百度 uid-generator](https://github.com/baidu/uid-generator)
-  - [美团 Leaf](https://tech.meituan.com/MT_Leaf.html)
+  - [美团点评 Leaf](https://github.com/Meituan-Dianping/Leaf)
 
-* TCC分布式事务框架
+* 分布式事务框架
+  - [阿里巴巴 Seata](https://github.com/seata/seata)
   - [tcc-transaction](https://github.com/changmingxie/tcc-transaction)
   - [ByteTCC](https://github.com/liuyangming/ByteTCC)
   - [Hmily](https://github.com/yu199195/hmily)
@@ -195,6 +196,7 @@
     
 * APM
   - [大众点评 Cat](https://github.com/dianping/cat)
+  - [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
   - [Pinpoint](https://github.com/naver/pinpoint)
   - [Open-Falcon](http://open-falcon.org/)
   
@@ -203,7 +205,6 @@
   - [Jaeger](https://www.jaegertracing.io/)
   - [OpenTracing](http://opentracing.io/)
   - [大众点评 Cat](https://github.com/dianping/cat)
-  - [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
 
 * 分布式文件系统
   - [FastDFS](https://github.com/happyfish100/fastdfs)
